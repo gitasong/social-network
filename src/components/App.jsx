@@ -2,6 +2,7 @@ import React from "react";
 import Profile from "./Profile";
 import Feed from "./Feed";
 import About from "./About";
+import Recommended from "./Recommended";
 
 function App(props) {
   return (
@@ -9,6 +10,7 @@ function App(props) {
       <Profile/>
       <About/>
       <Feed />
+      <Recommended />
     </div>
   );
 }
