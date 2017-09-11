@@ -1,7 +1,10 @@
 import React from "react";
+import StatusMessage from "./StatusMessage";
 
 function Feed(props) {
-  return ();
+  return (
+    <StatusMessage />
+  );
 }
 
 export default Feed;
