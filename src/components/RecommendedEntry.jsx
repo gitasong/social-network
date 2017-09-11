@@ -2,10 +2,14 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function RecommendedEntry(props) {
+  var imageStyles = {
+    maxWidth: "40",
+    maxHeight: "40",
+  }
   return (
     <div>
-      <img src={props.avatar}></img>
-      <h3>{props.title}</h3>
+      <img style={imageStyles} src={props.avatar}></img>
+      <h4>{props.title}</h4>
       <button>Follow</button>
     </div>
   );
