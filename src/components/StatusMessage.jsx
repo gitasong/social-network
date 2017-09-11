@@ -2,9 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function StatusMessage(props) {
+  var imageStyles = {
+    maxWidth: "40",
+    maxHeight: "40",
+  }
   return (
     <div>
-      <img src={props.avatar}></img>
+      <img style={imageStyles} src={props.avatar}></img>
       <h3>{props.name}</h3>
       <p>{props.status}</p>
     </div>

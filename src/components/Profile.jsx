@@ -5,7 +5,8 @@ function Profile(props) {
     border: "1px solid #000000",
     padding: "1.5rem",
     float: "left",
-    margin: "2rem"
+    margin: "2%",
+    maxWidth: "20%"
   }
   var imageStyles = {
     maxWidth: "40",
