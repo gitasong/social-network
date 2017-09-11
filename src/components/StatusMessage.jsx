@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes fron "prop-types";
 
 function StatusMessage(props) {
   return (
@@ -9,5 +10,11 @@ function StatusMessage(props) {
     </div>
   );
 }
+
+StatusMessage.propTypes = {
+  avatar: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  status: PropTypes.string.isRequired
+};
 
 export default StatusMessage;
