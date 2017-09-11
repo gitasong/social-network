@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./Header";
 import Profile from "./Profile";
-import About from "./About";
 import Feed from "./Feed";
 import Recommended from "./Recommended";
 
@@ -10,7 +9,6 @@ function App(props) {
     <div>
       <Header/>
       <Profile/>
-      <About/>
       <Feed />
       <Recommended />
     </div>
