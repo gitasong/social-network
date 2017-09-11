@@ -43,8 +43,8 @@ module.exports = {
             "react-hot-loader/babel"
           ]
         }
-      },
-    ],
+      }
+    ]
   },
 
   plugins: [
